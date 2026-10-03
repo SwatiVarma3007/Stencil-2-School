@@ -1,0 +1,6 @@
+{
+  "name": "STENCIL 2 SCHOOL",
+  "description": "Circular Material Systems & Archival Upcycling — transforming industrial nylon printing stencils into durable daily carry and stationery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

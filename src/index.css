@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-holst-900: #04222B;
+  --color-holst-800: #0A3D4A;
+  --color-holst-700: #10606F;
+  --color-holst-600: #1D8B94;
+  --color-holst-500: #4FB8B4;
+  --color-holst-200: #98D8D0;
+  --color-holst-50: #E2F4F0;
+  
+  --font-headline: "Epilogue", sans-serif;
+  --font-body: "DM Sans", sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-body);
+    background-color: var(--color-holst-900);
+    color: var(--color-holst-50);
+  }
+}
+
+.seam-border {
+  border-color: rgba(152, 216, 208, 0.16);
+}
+
+.seam-border-strong {
+  border-color: rgba(152, 216, 208, 0.32);
+}
+
+.teal-glow {
+  box-shadow: 0 10px 30px -10px rgba(79, 184, 180, 0.25);
+}
+
+.teal-glow-hover:hover {
+  box-shadow: 0 14px 36px -8px rgba(79, 184, 180, 0.35);
+}
+
