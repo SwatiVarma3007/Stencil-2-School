@@ -27,12 +27,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          # Removed the cache parameter that was looking for the lockfile
           
       - name: Install dependencies
-        # Changed 'npm ci' to 'npm install' so it generates its own packages without a lockfile
-       run: npm install --legacy-peer-deps
-
+        run: npm install --legacy-peer-deps
         
       - name: Build project
         run: npm run build
